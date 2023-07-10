@@ -14,23 +14,26 @@ const About = () => {
         </div>
 
         <p className="text-xl mt-20">
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius,
-          deserunt illum mollitia officiis qui exercitationem perferendis neque
-          quasi a recusandae necessitatibus tempora iusto! Blanditiis error
-          iste, totam fugiat recusandae rerum laborum perferendis molestiae
-          aperiam asperiores nemo. Magni dolor maxime debitis vitae, eaque hic
-          ab mollitia voluptatibus, a nostrum eveniet laborum!
+          Hello and welcome! My name is Jason Golliet, and I am a full-stack
+          software engineer based in the Greater Seattle Area. With a deep
+          passion for technology, especially future tech and AI, I am always
+          eager to challenge myself and broaden my skills. My interest in
+          language learning also keeps me motivated to continuously refine my
+          communication abilities, particularly in technical contexts.
         </p>
 
         <br />
 
         <p className="text-xl">
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum
-          pariatur, vel similique sint, nobis aspernatur ut praesentium
-          explicabo ipsam aliquid quasi laboriosam et culpa possimus repudiandae
-          quisquam ullam maiores ab unde. Fugiat odio mollitia nemo alias.
-          Commodi facilis atque nulla vero voluptatem explicabo. Quibusdam,
-          magni quo! Eum cupiditate debitis labore.
+          My portfolio includes a variety of projects, all of which reflect my
+          dedication, problem-solving skills, and commitment to producing
+          high-quality work. I welcome you to browse through these works to get
+          a sense of my abilities and style. When I'm not immersed in code, I
+          enjoy traveling and exploring new cultures. These experiences have
+          not only enriched me personally, but also have added to my flexibility
+          and adaptability in diverse team environments. Feel free to contact me
+          if you would like to collaborate or learn more about my work. Thank
+          you for stopping by!
         </p>
       </div>
     </div>
