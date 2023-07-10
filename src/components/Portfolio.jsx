@@ -8,19 +8,19 @@ const Portfolio = () => {
     {
       id: 1,
       name: 'Japanese Quiz App',
-      link: 'https://yourdemo/linkforjapanapp',
+      link: 'https://learn-japanese.onrender.com',
       src: japanApp,
     },
     {
       id: 2,
       name: 'Tic Tac Toe',
-      link: 'https://yourdemo/linkfortictactoe',
+      link: '#',
       src: ticTacToe,
     },
     {
       id: 3,
       name: 'Blog Site',
-      link: 'https://yourdemo/linkforblogsite',
+      link: '#',
       src: blogSite,
     },
   ];
