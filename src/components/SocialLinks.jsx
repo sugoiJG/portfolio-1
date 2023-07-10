@@ -42,7 +42,8 @@ const SocialLinks = () => {
       ),
       href: "/resume.pdf",
       style: "rounded-br-md",
-      download: true,
+      download: false,
+      target: "_blank"
     },
   ];
 
