@@ -1,21 +1,26 @@
 import React from "react";
-import japanApp from '../assets/portfolio/japanApp.png'
-import ticTacToe from '../assets/portfolio/tictactoe.png'
-import blogSite from '../assets/portfolio/blog.png'
-
+import japanApp from '../assets/portfolio/japanApp.png';
+import ticTacToe from '../assets/portfolio/tictactoe.png';
+import blogSite from '../assets/portfolio/blog.png';
 
 const Portfolio = () => {
   const portfolios = [
     {
       id: 1,
-      src: japanApp
+      name: 'Japanese Quiz App',
+      link: 'https://yourdemo/linkforjapanapp',
+      src: japanApp,
     },
     {
       id: 2,
+      name: 'Tic Tac Toe',
+      link: 'https://yourdemo/linkfortictactoe',
       src: ticTacToe,
     },
     {
       id: 3,
+      name: 'Blog Site',
+      link: 'https://yourdemo/linkforblogsite',
       src: blogSite,
     },
   ];
@@ -34,7 +39,7 @@ const Portfolio = () => {
         </div>
 
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
-          {portfolios.map(({ id, src }) => (
+          {portfolios.map(({ id, name, link, src }) => (
             <div key={id} className="shadow-md shadow-gray-600 rounded-lg">
               <img
                 src={src}
@@ -42,12 +47,14 @@ const Portfolio = () => {
                 className="rounded-md duration-200 hover:scale-105"
               />
               <div className="flex items-center justify-center">
-                <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
-                  Demo
-                </button>
-                <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
-                  Code
-                </button>
+                <a 
+                  href={link}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="w-full px-6 py-3 m-4 text-center duration-200 hover:scale-105"
+                >
+                  {name}
+                </a>
               </div>
             </div>
           ))}
