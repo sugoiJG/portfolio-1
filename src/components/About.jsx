@@ -35,6 +35,7 @@ const About = () => {
           if you would like to collaborate or learn more about my work. Thank
           you for stopping by!
         </p>
+        
       </div>
     </div>
   );
